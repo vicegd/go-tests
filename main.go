@@ -19,5 +19,6 @@ func main() {
 }
 
 func home(response http.ResponseWriter, request *http.Request) {
-	fmt.Fprintf(response, "Hello World from path: %s\n", request.URL.Path)
+	//fmt.Fprintf(response, "Hello World from path: %s\n", request.URL.Path)
+	http.ServeFile(response, request, "../utils/index.html")
 }

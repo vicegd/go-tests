@@ -7,7 +7,7 @@ func main() {
 	http.ListenAndServe(":4000", nil)
 }
 
-func home(reponse http.ResponseWriter, request *http.Request) {
-	http.ServeFile(reponse, request, "../utils/index.html")
+func home(response http.ResponseWriter, request *http.Request) {
+	http.ServeFile(response, request, "../utils/index.html")
 }
 
