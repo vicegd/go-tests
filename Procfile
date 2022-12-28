@@ -1,1 +1,1 @@
-web: utils/index.html
+web: bin/go-backend
