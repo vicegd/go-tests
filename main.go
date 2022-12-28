@@ -9,7 +9,6 @@ func main() {
 package main
 
 import (
-	"fmt"
 	"net/http"
 )
 
