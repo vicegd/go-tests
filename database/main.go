@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"log"
 	"time"
-	"github.com/jackc/pgx/v4"
+	//"github.com/jackc/pgx/v4"
 )
 
 func main() {
-	dsn := "postgresql://vicegd:aGSWRSYHHkLvAxcCnSq17w@rocky-imp-5198.7tc.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
+	/*dsn := "postgresql://vicegd:aGSWRSYHHkLvAxcCnSq17w@rocky-imp-5198.7tc.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
 	ctx := context.Background()
 	conn, err := pgx.Connect(ctx, dsn)
 	defer conn.Close(context.Background())
@@ -23,5 +23,5 @@ func main() {
 		log.Fatal("failed to execute query", err)
 	}
 
-	fmt.Println(now)
+	fmt.Println(now)*/
 }
