@@ -8,6 +8,6 @@ func main() {
 }
 
 func home(reponse http.ResponseWriter, request *http.Request) {
-	http.ServeFile(reponse, request, "./utils/index.html")
+	http.ServeFile(reponse, request, "../utils/index.html")
 }
 

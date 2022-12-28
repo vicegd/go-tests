@@ -6,7 +6,7 @@ import (
 )
 
 func saveFile() {
-	file, err := os.Create("./utils/file-create.txt")
+	file, err := os.Create("../utils/file-create.txt")
 	if err != nil {
 		fmt.Println("Error: ", err)
 	} else {
@@ -16,7 +16,7 @@ func saveFile() {
 }
 
 func saveFile2() {
-	file, err := os.OpenFile("./utils/file-create.txt", os.O_APPEND, 600)
+	file, err := os.OpenFile("../utils/file-create.txt", os.O_APPEND, 600)
 	if err != nil {
 		fmt.Println("Error: ", err)
 	} else {

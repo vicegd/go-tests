@@ -8,7 +8,7 @@ import (
 )
 
 func readFile() {
-	file, err := ioutil.ReadFile("./utils/file.txt")
+	file, err := ioutil.ReadFile("../utils/file.txt")
 	if err != nil {
 		fmt.Println("Error: ", err)
 	} else {
@@ -17,7 +17,7 @@ func readFile() {
 }
 
 func readFile2() {
-	file, err := os.Open("./utils/file.txt")
+	file, err := os.Open("../utils/file.txt")
 	if err != nil {
 		fmt.Println("Error: ", err)
 	} else {
