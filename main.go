@@ -8,13 +8,16 @@ func main() {
 
 package main
 
-import "net/http"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
 	http.HandleFunc("/", home)
 	http.ListenAndServe(":4000", nil)
 }
 
-func home(reponse http.ResponseWriter, request *http.Request) {
-	http.ServeFile(reponse, request, "./utils/index.html")
+func home(response http.ResponseWriter, request *http.Request) {
+	fmt.Fprintf(response, "Hello World from path: %s\n", request.URL.Path)
 }
