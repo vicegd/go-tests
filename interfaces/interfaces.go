@@ -2,7 +2,7 @@ package main
 
 import (
 	"time"
-	utils "go-backend/utils"
+	utils "go-tests/utils"
 )
 
 func status(hb utils.HumanBeing) {

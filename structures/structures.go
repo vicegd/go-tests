@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
-	utils "go-backend/utils"
+	utils "go-tests/utils"
 )
 
 func main() {
