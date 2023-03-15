@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	utils "go-tests/utils"
+	"time"
 )
 
 func status(hb utils.HumanBeing) {

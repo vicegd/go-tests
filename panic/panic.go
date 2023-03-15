@@ -10,7 +10,7 @@ func main() {
 		}
 	}()
 
-	if true == true {
+	if true {
 		panic("Se termina")
 	}
 }

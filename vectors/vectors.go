@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var vector[5]int
+	var vector [5]int
 	vector[0] = 10
 	fmt.Println(vector)
 
